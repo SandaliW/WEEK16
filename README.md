@@ -1,13 +1,13 @@
 # WEEK16
 #  Data transfer performance measure using "time" command
-Organise the experiment on two different scales:
+#Organise the experiment on two different scales:
 
-    copy files with specified size to another folder in the same system 
+   ## copy files with specified size to another folder in the same system 
     copy files with specified size to another system over the network using "nc" tool and two distinguished protocols:
         UDP
         TCP
 
-Simultaneously, capture network traffic utilising  TCPDUMP library (bash, Python,  C++, or Java)
+#Simultaneously, capture network traffic utilising  TCPDUMP library (bash, Python,  C++, or Java)
 
 # dd if=/devz/zero of=fil.dat bs=1024 count=1  #this for 1MBbits/s
 # to connect the two terminals
